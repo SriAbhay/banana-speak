@@ -6,4 +6,4 @@ function clickHandler()
 {
     console.log("clicked!")
 };
-btnTranslate.addEventListener("click", function clickEventHandler()
+btnTranslate.addEventListener("click", clickHandler)
