@@ -1,6 +1,7 @@
 var btnTranslate = document.querySelector("#btn-translate");
 var txtInput = document.querySelector("#txt-input");
 var outputDiv = document.querySelector("#output");
+
 var serverURL = "https://api.funtranslations.com/translate/minion.json"
 
 function getTranslationURL(Text) {
@@ -8,7 +9,6 @@ function getTranslationURL(Text) {
 }
 
 function clickHandler() {
-    //outputDiv.innerText = "ajajajsjsajj : " + txtInput.value;
     var inputText = txtInput.value;
     fetch(getTranslationURL(inputText))
         .then(response => response.json())
@@ -19,5 +19,4 @@ function clickHandler() {
             })
 
 };
-
 btnTranslate.addEventListener("click", clickHandler)
