@@ -9,7 +9,7 @@ function getTranslationURL(Text) {
 
 function clickHandler() {
     //outputDiv.innerText = "ajajajsjsajj : " + txtInput.value;
-    var inputText = txtInput.nodeValue;
+    var inputText = txtInput.value;
     fetch(getTranslationURL(inputText))
         .then(response => response.json())
         .then(json => 
