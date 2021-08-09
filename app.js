@@ -2,13 +2,12 @@ var btnTranslate = document.querySelector("#btn-translate");
 var txtInput = document.querySelector("#txt-input");
 var outputDiv = document.querySelector("#output");
 
-outputDiv.innerText = "Abhay Srivastava"
+outputDiv.innerText = "output..."
 
 console.log("txtInput")
 
 function clickHandler()
 {
-    console.log("clicked!")
-    console.log("input", txtInput.value);
+    outputDiv.innerText = "ajajajsjsajj  " +txtInput.value:
 };
 btnTranslate.addEventListener("click", clickHandler)
