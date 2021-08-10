@@ -1,3 +1,7 @@
+body {
+    background-image: images\bodyback.png;
+ 
+ }
 .heading {
     background-color: yellow;
     padding-top: 2rem;
@@ -8,8 +12,4 @@
     color: black;
     font-style: oblique;
     padding: auto;
-}
-body {
-   background-image: "images/bodyback.png";
-
 }
