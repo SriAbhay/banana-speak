@@ -9,3 +9,7 @@
     font-style: oblique;
     padding: auto;
 }
+body {
+   background-image: "images/bodyback.png";
+
+}
